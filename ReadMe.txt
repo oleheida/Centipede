@@ -1,6 +1,10 @@
 Terrifying Centipede is a clone of Centipede 1980, a vertically oriented shooter arcade game.
 
-Implemented:
+Player's mission is to reach the highest score possible while being attacked by Centipede scaling in size and speed as player kills it, spiders falling down 
+from the top of the screen and other creatures. To do so Player has a control over a plane and a possibility to shoot plane's machinegun. Game is endless basically,
+however at some point becomes insanly hard due to raising difficulty.
+
+Implemented features:
 	-Player can move his plane using either keyboard arrows or WASD;
 	-Player can shoot projectiles using either Spacebar or Left Ctrl;
 	-Killing mushrooms gives points and randomly generates pickup buffs for players;
@@ -8,7 +12,7 @@ Implemented:
 	-Centipede moves horizontally and goes one segment down and changes move direction everytime it collides with mushroom or side of a screen;
 	-Killing any part of the centipede will generate mushroom at that point;
 	
-Newly implemented:
+Newly implemented features:
 	-When there are 20 or less mushrooms left, spiders will begin to spawn at the top of a screen;
 	-When there are 10 or less mushrooms left, mushrooms will start to generate randomly on the screen, until there are 30 of them presented;
 	-Spiders spawned at the top of the screen are falling down;
@@ -25,7 +29,7 @@ Newly implemented:
 	-When centipede reaches the bottom side of a screen, player loses the game;
 	
 To be implemented:
-	-Lizards spawning at the bottom of the screen and moving diagonally with random factor; 
+	-Lizards spawning at the bottom left or right side of the screen and moving diagonally with random factor; 
 	-Lizards damage player;
-	-??? Lizards eats any mushroom which it collides with; (makes the game easier in my opinion)
+	-??? Lizards eat any mushroom which it collides with; (makes the game easier in my opinion)
 	-Killing one segment of a centipede creates a new head in the next one;
